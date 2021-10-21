@@ -1,0 +1,33 @@
+# Documentation files (README, TEAM, etc.)
+
+- Your git messages are mixed. While some are very nice (we could usually tell why the commit happened), some are vague and generally useless. For example, “Fixed the code.”, “Test.” “Fixed problem.” and “TIle 16” do not give any important information. Please fix this for phase 2.
+- README contained great instructions on how to clone the project, as well as how to run the project. In the future, it would be great to have a list of your implemented functionalities as well (including bonuses) for easy lookup.
+- TEAM has great information on how to keep in contact, and highlighted well your commitments to each other.
+- Nice job on the meeting notes. It looks like detail tapered off on November 4th. Try and remain consistent for phase 2.
+
+# Functionality
+
+- Signup and signin functionality worked great; clean and easy.
+- Good idea on having a list of games. This will make it easier to extend your application for phase 2.
+- Autosave feature works well.
+- Adding user feedback might be nice for unavailable functionality (for example, a message would pop-up when trying to load a saved game when there are no saved games)
+- Good job on the undo functionality. Also enjoyed the redo button as an added bonus.
+- Your scoreboard is missing functionality. “You should be able to implement and show per-game and per-user scoreboards.”. As of now, there is only a per-game scoreboard, and not a per-user scoreboard. Please fix this for phase 2. It also looks like a user can only have their score once on the scoreboard, was this on purpose?
+- All functionalities implemented.
+
+# Design and code quality
+
+- Javadocs are occasionally missing information. For example, `Board.java`’s constructor’s are missing `@params`, and `SignUp.java`'s variable `myContext` is missing comments. Please fix this for phase 2.
+- Specify type parameters. Examples: `new ArrayList<>()` in `Board.java` and `new HashMap<>()` in `User.java`. Please fix this for phase 2.
+- `EasyScoreBoardActivity.java`, `MediumScoreBoardActivity.java`, and `HardScoreBoardActivity.java` are all very similar. Please fix this for phase 2 (maybe extend an abstract class?).
+- Java naming conventions were followed well.
+- It would be beneficial to make packages based on the functionality of your different classes.
+- `makeToastExistUserText()` and `makeToastCreateUserText()` are virtually identical. Please fix this for phase 2.
+- The types of variables should be as high in the inheritance hierarchy as possible. For example, in `States.java`, `boards` should be of type `List`, not `ArrayList`. That allows you to change the object type without having to change any other code. Please fix this for phase 2.
+
+# Bonus features
+
+- Bonus marks for additional functionality (Redo button) 1%
+- Bonus marks for undo 1%
+
+Overall grade: 8.2/10
